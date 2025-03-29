@@ -4,10 +4,21 @@
 
 ## rpi setup
 
+### image / boot
 - https://www.instructables.com/The-Ultimate-Headless-RPi-Zero-Setup-for-Beginners/
 - https://forums.raspberrypi.com/viewtopic.php?t=58151 (boot problems)
-  - has to show
-## components 
+  - has to show with dmesg
+
+### net
+- https://raspberrypi.stackexchange.com/questions/13936/find-raspberry-pi-address-on-local-network
+  - manual
+- https://www.howtogeek.com/167190/how-and-why-to-assign-the-.local-domain-to-your-raspberry-pi/
+  - mDNS apple stuff / install avahi on linux  
+    
+
+
+
+## hardware components 
 
 ### mcu
 - https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#introduction
@@ -37,7 +48,24 @@
 ### communication receiver elrs
 - https://www.bol.com/nl/nl/p/radiomaster-rp3-elrs-2-4ghz-nano-ontvanger/9300000183045489
 - https://www.radiomasterrc.com/products/rp3-expresslrs-2-4ghz-nano-receiver
+
+- https://github.com/kaack/elrs-joystick-control
+
+- https://www.youtube.com/watch?v=MCOWKvFTHRc
+  - https://github.com/mikeneiderhauser/CRSFJoystick
+
+- https://github.com/i-am-grub/VRxC_ELRS
+- https://medium.com/@mike_polo/parsing-crsf-protocol-from-a-flight-controller-with-a-raspberry-pi-for-telemetry-data-79e9426ff943 
+
+- https://github.com/AlfredoSystems/AlfredoCRSF/
 - 
+- https://www.raspberrypi.com/news/building-a-raspberry-pi-pico-2-powered-drone-from-scratch/
+  - https://github.com/TimHanewich/scout
+
+- https://blog.cubed.run/fpv-autonomous-flight-with-mavlink-and-raspberry-pi-part-i-f7dfa913f505
+- https://medium.com/illumination/fpv-autonomous-flight-with-mavlink-and-raspberry-pi-part-ii-2d55dcd8d659
+
+
 ### battery 
 - https://www.amazon.nl/-/en/OVONIC-Battery-5200mAh-Monster-Truggy/dp/B0CX1M6Q4M/
 
