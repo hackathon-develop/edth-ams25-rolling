@@ -12,10 +12,10 @@
 - https://www.kiwi-electronics.com/en/adafruit-9-dof-absolute-orientation-imu-fusion-breakout-bno055-stemma-qt-qwiic-10417
 - https://learn.adafruit.com/adafruit-bno055-absolute-orientation-sensor/python-circuitpython
 - https://github.com/ghirlekar/bno055-python-i2c
-- https://github.com/adafruit/Adafruit_Python_BNO055
+- https://github.com/adafruit/Adafruit_CircuitPython_BNO055
+  - https://github.com/adafruit/Adafruit_Python_BNO055 (old)
   - https://cdn-learn.adafruit.com/downloads/pdf/bno055-absolute-orientation-sensor-with-raspberry-pi-and-beaglebone-black.pdf
  
-
 ### motor driver BTS7960
 - https://www.amazon.nl/dp/B07Y4TTK3Z
 - https://electronics.stackexchange.com/questions/398556/how-to-control-a-motor-driver-bts7960-without-pwm
