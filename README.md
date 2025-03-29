@@ -16,8 +16,6 @@
   - mDNS apple stuff / install avahi on linux  
     
 
-
-
 ## hardware components 
 
 ### mcu
@@ -58,7 +56,7 @@
 - https://medium.com/@mike_polo/parsing-crsf-protocol-from-a-flight-controller-with-a-raspberry-pi-for-telemetry-data-79e9426ff943 
 
 - https://github.com/AlfredoSystems/AlfredoCRSF/
-- 
+  
 - https://www.raspberrypi.com/news/building-a-raspberry-pi-pico-2-powered-drone-from-scratch/
   - https://github.com/TimHanewich/scout
 
@@ -76,3 +74,5 @@
 - https://www.instructables.com/DIY-Life-Size-Phone-Controlled-BB8-Droid/
   
 - https://youtu.be/6b4ZZQkcNEo
+
+- https://guardbot.org/media/
