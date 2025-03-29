@@ -2,6 +2,11 @@
 # rolling bot
 
 
+## rpi setup
+
+- https://www.instructables.com/The-Ultimate-Headless-RPi-Zero-Setup-for-Beginners/
+- https://forums.raspberrypi.com/viewtopic.php?t=58151 (boot problems)
+  - has to show
 ## components 
 
 ### mcu
@@ -31,7 +36,8 @@
  
 ### communication receiver elrs
 - https://www.bol.com/nl/nl/p/radiomaster-rp3-elrs-2-4ghz-nano-ontvanger/9300000183045489
-
+- https://www.radiomasterrc.com/products/rp3-expresslrs-2-4ghz-nano-receiver
+- 
 ### battery 
 - https://www.amazon.nl/-/en/OVONIC-Battery-5200mAh-Monster-Truggy/dp/B0CX1M6Q4M/
 
