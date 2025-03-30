@@ -1,8 +1,11 @@
 
 # rolling bot
 
-
 ## rpi setup
+
+### rpi imager
+- https://github.com/raspberrypi/rpi-imager/issues
+  - maybe choose another tool/way. this stole quite some time   
 
 ### image / boot
 - https://www.instructables.com/The-Ultimate-Headless-RPi-Zero-Setup-for-Beginners/
@@ -30,15 +33,33 @@
   - https://github.com/adafruit/Adafruit_Python_BNO055 (old)
   - https://cdn-learn.adafruit.com/downloads/pdf/bno055-absolute-orientation-sensor-with-raspberry-pi-and-beaglebone-black.pdf
  
-### motor driver BTS7960
-- https://www.amazon.nl/dp/B07Y4TTK3Z
-- https://electronics.stackexchange.com/questions/398556/how-to-control-a-motor-driver-bts7960-without-pwm
+### 16-Channel Servo Driver PCA9685 / Servo Driver BTS7960
+- https://www.adafruit.com/product/815 PCA9685 16-Channel Servo Driver
+  - https://learn.adafruit.com/16-channel-pwm-servo-driver
+- https://www.amazon.nl/dp/B07Y4TTK3Z Hailege BTS7960 43A Dual H-Bridge Stepper Motor Drive
+
+#### PCA9685
+- https://learn.adafruit.com/16-channel-pwm-servo-driver/python-circuitpython
+  - https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi 
+    - https://github.com/adafruit/Adafruit_Python_PCA9685/issues/20 -> outdated
+    - https://github.com/adafruit/Adafruit_CircuitPython_PCA9685
+
+- https://www.kevsrobots.com/learn/pca9685/05_setting_up_the_pca9685_with_raspberry_pi.html (outdated)
+
+#### BTS7960   
+
 - https://community.robotshop.com/forum/t/how-to-i-connect-a-motor-driver-bts7960-43a-to-a-raspberry-pi/69944
   - https://custom-build-robots.com/raspberry-pi-robot-cars/big-rob-motor-driver-bts7960b/8155?lang=en
-  - https://forums.raspberrypi.com/viewtopic.php?p=1124139
-    - https://github.com/custom-build-robots/Motor-Driver-BTS7960B-and-PCA9685 
-- https://www.xsimulator.net/community/threads/2dof-with-45degree-of-roll-and-pitch.18651/
+    - https://github.com/custom-build-robots/Motor-Driver-BTS7960B-and-PCA9685
 
+- https://38-3d.co.uk/blogs/blog/using-the-bts7960-with-the-raspberry-pi
+
+- https://forums.raspberrypi.com/viewtopic.php?p=1124139 
+- https://www.xsimulator.net/community/threads/2dof-with-45degree-of-roll-and-pitch.18651/
+- https://electronics.stackexchange.com/questions/398556/how-to-control-a-motor-driver-bts7960-without-pwm
+
+- https://gist.github.com/javaplus/2cae3e595afdfc86ef15da32a8e0a2c8
+- 
 ### motors 
 - https://www.kiwi-electronics.com/en/dc-motor-with-jst-ph-2-0-connector-37mm-12v-245rpm-10781
 - https://www.amazon.nl/-/en/owootecc-torque-Digital-Waterproof-Control/dp/B0819LWL9V
